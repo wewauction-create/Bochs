@@ -1,3 +1,4 @@
+# Bochs - Controllable A20 line
 This is a fork of the Bochs emulator.
 With a small modification which is, we can now control the state of the A20 line in a BIOS-independent way via the bochsrc file before the bootloader takes control.
 
@@ -21,5 +22,5 @@ This way, the A20 line will be disabled before the bootloader takes control (0x7
 
 If the line is absent or the "enable" parameter equals to anything other than 0, Bochs will enable the A20 line as usual.
 
-#Limitation
+# Limitation
 This works only if Bochs is running with 1 CPU, or the internal debugger is running.
