@@ -8,11 +8,11 @@ And now we can test BIOSes that enable the A20 line and we don't have access to 
 
 Of course I made a pull request but the author rejected it because I typed "NEW NEW NEW NEW" comments in areas where I edited the code. A very strong reason.
 
-#Why
+# Why
 I made this to test my bootloader logic to enable the A20 line.
 (This is not my first bootloader, this is the 108339383973917484029th time I make a bootloader, but I used QEMU before).
 
-#Usage
+# Usage
 In your bochsrc file, type:
 ```
 A20: enable=0
