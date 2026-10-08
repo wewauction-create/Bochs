@@ -20,7 +20,11 @@ A20: enable=0
 ```
 This way, the A20 line will be disabled before the bootloader takes control (0x7c00).
 
-If the line is absent or the "enable" parameter equals to anything other than 0, Bochs will enable the A20 line as usual.
+If the line is absent or the "enable" parameter equals anything other than 0, Bochs will enable the A20 line as usual.
 
 # Limitation
 This works only if Bochs is running with 1 CPU, or the internal debugger is running.
+
+# Contact me
+I don't know why you want to do that.
+My email: wewauction@gmail.com
